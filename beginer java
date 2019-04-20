@@ -1,0 +1,162 @@
+public class Main {
+
+    // class definiation
+    public static void main(String[] args) {
+	// write your code here
+        System.out.println("Helloooooo");
+    }
+}
+//Line Comments
+//C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.1.1\jre64\bin
+
+// block comments
+/* block */
+
+/** JavaaDoc Comment*/
+
+/* Packages
+ package com.pluralsight.example  - affects source code file structure
+ all lowercase
+ usually a domain name
+ further qualifiers after that 'package com.pluralsight.myproject;
+ file structure follows the package naming convention
+
+ */
+
+/*Variables
+Named data storage
+Strongly typed
+type variable;
+ */
+/*
+Primateves
+int _ size _ byte, short, int, long (always ends w/ 'L'
+float _ IEEE 754 _ float 'f', double 'd'
+bool true/false
+char _ 'charU';
+
+
+Prefix Operators
+++ / -- before variable
+Postfix Operation
+Variable ++ / --  will only change the value for hte next operation
+
+Compound assignment operators
+int myVal = 50;
+myVal -= 5:
+System.out.println(MyVal): 45
+
+right then left
+
+Type Conversion _ implicit and explicit
+
+implicit
+int iVal = 450:
+long iVal = iVal;
+
+Explicit
+long iVal = 50;
+int iVal = (int) iVal;
+
+Widening conversions.
+
+CONDITIONAL
+
+int v1 = 7;
+int v2 = 5;
+int vMax = x1 > x2 ? v1: v2; 
+System.out.println(vMax):   _ 7/v1
+
+
+if-else
+
+if (condition){
+true statement;
+}
+else if (condition-2){
+false statement;
+}
+// variables don't pass out
+
+and & _ or | _ XOR ^ _ Negation !
+Conditiona and && conditional or ||
+
+
+While loop
+Factorial
+
+int kVal = 5;
+int factorial = 1;
+
+while (kVal >1) {
+  factorial *= kVal;
+  kVal -=1;
+}
+
+or 
+
+while (kVal > 1)
+  factorial *= kVal --;
+System.out.println(factorial);
+
+do while loop
+do
+  statement;
+While(condition);
+
+For loop
+int iVal = 1;
+for(initializd; condition; update)
+statement;
+for(int iVal = 1; iVal < 100; iVal *=2)
+  System.out.println(iVal);
+  
+  Arrays
+  float [] Array = new float[3];
+  Array[0] = 10.0f;
+  Array[1] = 20.0f;
+  Array[2] = 30.0f;
+
+for(int i=0; i < theVals.length; i++)
+  sum += theVals[i];
+  
+System.out.pringln(sum);
+
+short hand:
+
+float[] Array = {10.0f, 20.0f, 15.0f };
+
+indexed zero base.
+
+
+For Each Loop
+
+for (loop-variabl-declaration: array)
+  statement;  
+
+float[] Array = {10.0f, 20.0f, 15.0f };
+
+float sum = 0.0f;
+for(float currentVal : Array)
+  sum += currentVal;
+  
+ Switch Statment (Char, int) data type
+ 
+ switch (test-value) {case value-1: statement}
+break to avoid falling through
+
+Switch(iVal %2) {
+case 0:
+  System.out.println(iVal);
+  break;
+case 1:
+  System.out.println(iVal);
+  break;
+
+
+
+
+
+
+
+
